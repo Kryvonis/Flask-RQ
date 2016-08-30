@@ -19,6 +19,7 @@ def send_email():
     sum = 0
     for i in range(100000):
         sum += i**i
+    return sum
 
 if __name__ == '__main__':
     app.run()
